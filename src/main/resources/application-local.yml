@@ -1,0 +1,10 @@
+spring.profiles.include: db-local
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
