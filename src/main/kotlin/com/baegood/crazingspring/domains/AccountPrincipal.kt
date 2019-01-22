@@ -3,7 +3,7 @@ package com.baegood.crazingspring.domains
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.userdetails.UserDetails
 
-class AccountContext(
+class AccountPrincipal(
     val account: Account,
     private val authorities: MutableSet<GrantedAuthority> = mutableSetOf()
 ) : UserDetails {

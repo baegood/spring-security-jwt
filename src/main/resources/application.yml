@@ -20,3 +20,10 @@ cors:
     - DELETE
     - OPTIONS
   origins: http://localhost:3000
+
+jsonwebtoken:
+  issuer: baegoon.kr
+  signing-key: baegoon-signing-key
+  expriration: 7200
+  header-prefix: 'Bearer '
+  header-name: Authorization
